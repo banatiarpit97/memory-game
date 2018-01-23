@@ -1,0 +1,8 @@
+{
+  "name": "MatchingGame",
+  "app_id": "28215ac4",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
