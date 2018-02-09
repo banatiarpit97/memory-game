@@ -1,0 +1,44 @@
+page-high-scores {
+    .time_value, .time_heading, .moves_value, .moves_heading{
+    font-size: 4em;
+    text-align: center;
+    position: absolute;
+    display: none;
+    font-family: 'Risque', cursive;
+  }
+  .heading{
+    text-align: center;
+    font-family: 'Risque', cursive;
+    font-size: 4em;   
+  }
+  .time_heading{
+    top: 30%;
+    left: 13%;
+    // animation: from_left 2s;
+  }
+  .time_value{
+    top: 40%;
+    left: 37%;
+  }  
+  .moves_heading{
+    top: 55%;
+    left: 28%;
+  }
+  .moves_value{
+    top: 65%;
+    left: 42%;
+  }
+  body{
+    font-family: 'Risque', cursive;
+  }
+  canvas{
+    pointer-events: none;
+    
+  }
+  .back{
+    font-size: 4em;
+    position: absolute;
+    bottom: 10px;
+    color:#488aff;
+  }
+}

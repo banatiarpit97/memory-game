@@ -1,0 +1,17 @@
+<ion-content padding class="fire">
+  <div class="heading">Highscore</div>
+  <div class="time">
+    <div class="time_heading">Time Taken</div>
+    <div class="time_value">{{highscoreMinutes}}:{{highscoreSeconds}}</div>
+  </div>
+  <div class="moves">
+    <div class="moves_heading">Moves</div>
+    <div class="moves_value">{{highscoreMoves}}</div>
+  </div>
+
+    <ion-fab left bottom (click)='goBack()'>
+      <button ion-fab color="primary">
+        <ion-icon name='home'></ion-icon>
+      </button>
+    </ion-fab>  
+</ion-content>

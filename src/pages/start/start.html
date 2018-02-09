@@ -1,0 +1,31 @@
+
+<ion-content padding>
+   <!-- <p>{{highscoreMinutes}}</p> -->
+   <!-- <p>{{highscoreSeconds}}</p> -->
+   <!-- <p>{{highscoreMoves}}</p> -->
+
+   <h1 class="title">Match The Bricks</h1>
+   <ion-grid>
+   	 <ion-row>
+   	 	<ion-col class=playCol>
+		   <div class="play" (click)='play()'>
+		   	<ion-icon name='play'></ion-icon>
+		   </div>
+		</ion-col>
+	 </ion-row>
+	</ion-grid> 	   
+
+   <ion-grid class=grid2>
+      <ion-row>
+        <ion-col col-6>
+           <div class="award" (click)='showHighScores()'><ion-icon name='trophy'></ion-icon></div>
+        </ion-col>
+        
+        <ion-col col-6>
+           <div class="info" (click) = 'showInstructions()'><ion-icon name='information'></ion-icon></div>
+        </ion-col>
+        
+      </ion-row>
+   </ion-grid>        	
+
+</ion-content>
