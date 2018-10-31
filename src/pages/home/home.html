@@ -23,21 +23,70 @@
 		</ion-row>
 	</ion-grid>		
 
-	<ion-grid class='bricks-grid'>
-		<ion-row>
-			<ion-col col-3 *ngFor='let brick of brickNumbers;let i=index'>
-				 <div class="card-container">
-				  <div class='card' >
-				  	<div class="front"></div>
-				  	<div class="back">
-				  		<img src={{images[i]}}>
-				  	</div>
-				  </div>
-				 </div>
-			</ion-col>
-		</ion-row>
-	</ion-grid>	
 
+			<div id="bricks">
+
+		<ion-grid class='bricks-grid'>
+			<ion-row>
+				<ion-col col-3 *ngFor='let brick of brickNumbers;let i=index'>
+					<div class="card-container">
+						<div class='card'>
+							<div class="front"></div>
+							<div class="back">
+								<img src={{images[i]}}>
+							</div>
+						</div>
+					</div>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+
+				<!-- <ion-grid class='bricks-grid2'>
+					<ion-row>
+						<ion-col col-3 *ngFor='let brick of brickNumbers;let i=index'>
+							<div class="card-container" [hidden]="brick =='3' || brick == '7' || brick == '11' || brick == '15' || brick == '19' || brick == '23' || brick == '27' || brick == '24' || brick == '25' || brick == '26'">
+								<div class='card'>
+									<div class="front"></div>
+									<div class="back"> -->
+										<!-- <img src={{images[i]}}> -->
+									<!-- </div>
+								</div>
+							</div>
+						</ion-col>
+					</ion-row>
+				</ion-grid>
+
+
+				<ion-grid class='bricks-grid3'>
+					<ion-row>
+						<ion-col col-3 *ngFor='let brick of brickNumbers;let i=index'>
+							<div class="card-container" [hidden]="brick =='3' || brick == '7' || brick == '11' || brick == '15' || brick == '19' || brick == '23' || brick == '27' || brick == '24' || brick == '25' || brick == '26' || brick == '2' || brick == '6' || brick == '10' || brick == '14' || brick == '18' || brick == '22' || brick == '20' || brick == '21'">
+								<div class='card'>
+									<div class="front"></div>
+									<div class="back"> -->
+										<!-- <img src={{images[i]}}> -->
+									<!-- </div>
+								</div>
+							</div>
+						</ion-col>
+					</ion-row>
+				</ion-grid> -->
+
+								<!-- <ion-grid class='bricks-grid4'>
+									<ion-row>
+										<ion-col col-3 *ngFor='let brick of brickNumbers;let i=index'>
+											<div class="card-container" *ngIf="brick =='0' || brick == '4' || brick == '8' || brick == '12' ">
+												<div class='card'>
+													<div class="front"></div>
+													<div class="back">
+														<img src={{images[i]}}> -->
+													<!-- </div>
+												</div>
+											</div>
+										</ion-col>
+									</ion-row>
+								</ion-grid> -->
+</div>
 	<ion-fab left bottom (click)='goBack()'>
 		<button ion-fab color="primary">
 			<ion-icon name='home'></ion-icon>

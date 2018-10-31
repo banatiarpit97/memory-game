@@ -6,14 +6,6 @@ import { AlertController } from 'ionic-angular';
 import { HighScoresPage } from '../high-scores/high-scores'
 
 
-/**
- * Generated class for the StartPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
-@IonicPage()
 @Component({
   selector: 'page-start',
   templateUrl: 'start.html',

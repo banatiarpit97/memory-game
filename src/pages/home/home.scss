@@ -2,8 +2,32 @@ page-home {
    .scroll-content{
       // margin-top: 56px !important;
    }
+   #bricks{
+       position: relative;
+   }
    .bricks-grid{
       margin-top: 17px;
+   }
+   .bricks-grid2{
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-left: 37px;
+        margin-top: 25px;
+   }
+   .bricks-grid3{
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-left: 77px;
+        margin-top: 55px;
+   }
+   .bricks-grid5{
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-left: 115px;
+        margin-top: 87px;
    }
    .time, .moves{
       font-size: 2em;

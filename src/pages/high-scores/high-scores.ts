@@ -4,14 +4,7 @@ import { Storage } from '@ionic/storage';
 import { StartPage } from '../start/start';
  
 declare var $:any;
-/**
- * Generated class for the HighScoresPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
-@IonicPage()
 @Component({
   selector: 'page-high-scores',
   templateUrl: 'high-scores.html',
